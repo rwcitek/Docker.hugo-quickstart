@@ -37,7 +37,7 @@ RUN     hugo new posts/my-first-post.md
 RUN     sed -i -e '/^draft:/s/true/false/' ./content/posts/my-first-post.md
 
 # Step 5: Start the Hugo server
-CMD     hugo server --bind 0.0.0.0 -D
+CMD     ["hugo","server","--bind","0.0.0.0","-D"]
 
 # finish up
 COPY    Dockerfile /
