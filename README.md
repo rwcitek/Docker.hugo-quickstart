@@ -1,5 +1,7 @@
 # Docker.hugo-quickstart
-Docker image of a Hugo server with the Quickstart example included
+Docker image of a Hugo server with the Quickstart example included.
+
+The image is hosted on [Docker Hub](https://hub.docker.com/repository/docker/rwcitek/hugo-quickstart).
 
 
 ## Run a container instance
